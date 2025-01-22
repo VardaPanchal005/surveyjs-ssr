@@ -15,7 +15,7 @@ const sendSurveyData = (data) => {
         data: JSON.stringify(data), 
         contentType: 'application/json;charset=utf-8', 
         type: "POST", 
-        headers: { 'ApiKey': "JjUNK0e7DGwu2A9rTjvJWZ3YHcxdKrE4" },  
+        headers: { 'ApiKey': "your api key" },  
         success: function(response) {
             alert('Survey submitted successfully!');
             console.log('Response:', response);
